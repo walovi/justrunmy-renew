@@ -1,7 +1,7 @@
 name: Auto-Renew-JustRunMy
 on:
   schedule:
-    - cron: '0 */20 * * *'  # 每20小时运行一次
+    - cron: '0 1 * * *'  # 每天凌晨 1:00 UTC 运行一次
   workflow_dispatch:
 
 jobs:
